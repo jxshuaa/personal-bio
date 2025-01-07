@@ -1,95 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bio Site Customization Guide</title>
-</head>
-<body>
-    <h1>🎨 Bio Site Customization Guide</h1>
+```markdown
+# 🎨 Bio Site Customization Guide
 
-    <h2>📝 Basic Information</h2>
-    <div>
-        Update in <code>public/index.html</code>:
-        <pre>
-&lt;title&gt;Your Name&lt;/title&gt;
-&lt;link rel="icon" type="image/png" href="your-avatar-url"&gt;
-&lt;meta property="og:title" content="Your Title"&gt;
-&lt;meta property="og:description" content="Your Description"&gt;
-&lt;meta property="og:image" content="your-image-url"&gt;
-&lt;meta property="og:url" content="your-github-url"&gt;
-        </pre>
-    </div>
+## 📝 Basic Information
 
-    <h2>👋 Greeting Messages</h2>
-    <div>
-        Modify in <code>src/components/Home.js</code>:
-        <pre>
+Update in `public/index.html`:
+
+```html
+<title>Your Name</title>
+<link rel="icon" type="image/png" href="your-avatar-url">
+<meta property="og:title" content="Your Title">
+<meta property="og:description" content="Your Description">
+<meta property="og:image" content="your-image-url">
+<meta property="og:url" content="your-github-url">
+```
+
+## 👋 Greeting Messages
+
+Modify in `src/components/Home.js`:
+
+```javascript
 const greetings = [
     "Hello",
     "Bonjour",
 ];
-        </pre>
-    </div>
+```
 
-    <h2>🔧 Tech Stack Icons</h2>
-    <div>
-        Change in <code>src/components/Home.js</code>:
-        <pre>
+## 🔧 Tech Stack Icons
+
+Change in `src/components/Home.js`:
+
+```javascript
 const icons = [
     { Icon: FaPython, color: '#3776AB' },
     { Icon: IoLogoJavascript, color: '#F7DF1E' },
 ];
-        </pre>
-    </div>
+```
 
-    <h2>🔗 Navigation Links</h2>
-    <div>
-        Edit in <code>src/components/Navbar.js</code>:
-        <pre>
-&lt;div className="nav-links"&gt;
-    &lt;a href="your_url" target="_blank" rel="noopener noreferrer"&gt;
+## 🔗 Navigation Links
+
+Edit in `src/components/Navbar.js`:
+
+```html
+<div className="nav-links">
+    <a href="your_url" target="_blank" rel="noopener noreferrer">
         Your Link Text
-    &lt;/a&gt;
-&lt;/div&gt;
-        </pre>
-    </div>
+    </a>
+</div>
+```
 
-    <h2>🎨 Theme Customization</h2>
-    <div>
-        Modify in <code>src/App.css</code>:
-        <pre>
+## 🎨 Theme Customization
+
+Modify in `src/App.css`:
+
+```css
 body {
     background-color: your_color;
     color: your_text_color;
     font-family: your_font;
 }
-        </pre>
-    </div>
+```
 
-    <h2>🎵 Audio Settings</h2>
-    <div>
-        Replace <code>/song.mp3</code> with your preferred audio file in <code>src/components/IntroScreen.js</code>
-    </div>
+## 🎵 Audio Settings
 
-    <h2>📱 Responsive Design</h2>
-    <div>
-        Adjust breakpoints in <code>src/components/*.css</code> files:
-        <pre>
+Replace `/song.mp3` with your preferred audio file in `src/components/IntroScreen.js`.
+
+## 📱 Responsive Design
+
+Adjust breakpoints in `src/components/*.css` files:
+
+```css
 @media screen and (max-width: 768px) {
 }
-        </pre>
-    </div>
+```
 
-    <h2>🚀 Deployment</h2>
-    <div>
-        <ol>
-            <li>Fork the repository</li>
-            <li>Clone your fork</li>
-            <li>Install dependencies: <code>npm install</code></li>
-            <li>Make your changes</li>
-            <li>Test locally: <code>npm start</code></li>
-            <li>Deploy to hosting platform of choice</li>
-        </ol>
-    </div>
-</body>
-</html>
+## 🚀 Deployment
+
+1. Fork the repository
+2. Clone your fork
+3. Install dependencies: `npm install`
+4. Make your changes
+5. Test locally: `npm start`
+6. Deploy to hosting platform of choice
+```
