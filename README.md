@@ -62,7 +62,7 @@ body {
 
 ## 🎵 Audio Settings
 
-Replace `/song.mp3` with your preferred audio file in `src/components/IntroScreen.js`.
+Replace `/song.mp3` with your preferred audio file in `/public`.
 
 ## 📱 Responsive Design
 
