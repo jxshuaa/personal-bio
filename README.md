@@ -27,7 +27,6 @@
 const greetings = [
     "Hello",
     "Bonjour",
-    // Add your greetings
 ];
         </pre>
     </div>
@@ -39,7 +38,6 @@ const greetings = [
 const icons = [
     { Icon: FaPython, color: '#3776AB' },
     { Icon: IoLogoJavascript, color: '#F7DF1E' },
-    // Add your tech icons
 ];
         </pre>
     </div>
@@ -78,7 +76,6 @@ body {
         Adjust breakpoints in <code>src/components/*.css</code> files:
         <pre>
 @media screen and (max-width: 768px) {
-    /* Your mobile styles */
 }
         </pre>
     </div>
