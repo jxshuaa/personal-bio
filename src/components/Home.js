@@ -43,10 +43,10 @@ const Home = React.memo(() => {
   const [loopNum, setLoopNum] = useState(0);
   const [is24Hour, setIs24Hour] = useState(true);
   const [isTimeTransitioning, setIsTimeTransitioning] = useState(false);
-  const [volume, setVolume] = useState(0.2);
+  const [volume, setVolume] = useState(0.7);
   const [isMuted, setIsMuted] = useState(false);
   const [presence, setPresence] = useState(null);
-  const [previousVolume, setPreviousVolume] = useState(0.2);
+  const [previousVolume, setPreviousVolume] = useState(0.7);
   const [isSliding, setIsSliding] = useState(false);
 
   const greetings = useMemo(() => [

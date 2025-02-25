@@ -57,6 +57,8 @@ const IntroScreen = ({ onComplete }) => {
     setIsFading(true);
     const audio = new Audio('/song.mp3');
     audio.loop = true;
+    audio.volume = 0.7;
+    audio.currentTime = 2;
     audio.play();
     window.audioElement = audio;
     setTimeout(() => {
